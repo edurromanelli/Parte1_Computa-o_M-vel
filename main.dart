@@ -27,9 +27,10 @@ void main() {
     // Condicional: preço maior que 500 recebe destaque
     if (produto.preco > 500) {
       print(
-          "⚡ [DESTAQUE] Produto caro encontrado: ${produto.nome} - R\$ ${produto.preco}");
+          "[DESTAQUE] Produto caro encontrado: ${produto.nome} - R\$ ${produto.preco}");
     } else {
       print("${produto.nome} - R\$ ${produto.preco}");
     }
   }
 }
+
